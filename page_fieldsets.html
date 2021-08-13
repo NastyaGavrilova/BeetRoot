@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <header>
+      <h1>Registration</h1>
+      <nav>
+        <a href="./index.html" title="Вернуться на главную"
+          >Вернуться на главную страницу</a
+        >
+      </nav>
+    </header>
+    <form action="" method="GET">
+      <!-- Username -->
+      <fieldset>
+        <legend>Імя користувача</legend>
+        <input name="username" type="text" placeholder="Enter your name" />
+      </fieldset>
+
+      <!-- Password -->
+      <fieldset>
+        <legend>Пароль</legend>
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter your password"
+        />
+      </fieldset>
+
+      <!-- Phone -->
+      <fieldset>
+        <legend>Phone number</legend>
+        <input value="+3" type="tel" name="phone" />
+      </fieldset>
+
+      <!-- Age -->
+      <fieldset>
+        <legend>Age</legend>
+        <input type="number" name="age" placeholder="Enter your Age" />
+      </fieldset>
+
+      <!-- Email -->
+      <fieldset>
+        <legend>E-Mail</legend>
+        <input type="email" name="email" placeholder="Enter your E-Mail" />
+      </fieldset>
+
+      <!-- Comment -->
+      <fieldset>
+        <legend>Comment</legend>
+        <textarea name="comment"></textarea>
+      </fieldset>
+
+      <br />
+      <button type="submit">Send Data</button>
+
+      <button type="reset">Reset Form</button>
+    </form>
+  </body>
+</html>
