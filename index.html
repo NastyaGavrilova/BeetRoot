@@ -4,25 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/normilize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <link rel="shortcut icon" href="./images/favicon.ico" />
     <title>Адреса Интернета</title>
-    <style>
-      #footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        padding: 10px;
-        background: #397db5;
-        color: #fff;
-        width: 100%;
-      }
-      #body {
-        background-color: rgb(184, 217, 255);
-        color: rgb(58, 90, 179);
-      }
-    </style>
   </head>
-  <body id="body">
+  <body id="wrapper">
     <!-- Шапка с навигацией и закладками другой страницы -->
     <header>
       <h1>Адреса Интернета</h1>
@@ -30,58 +17,65 @@
         <a
           href="./webpage_markers.html#block1"
           title="Перейти в раздел Введение"
-          >1. Введение</a
-        ><br />
+          >Введение</a
+        >|
         <a
           href="./webpage_markers.html#block2"
           title="Перейти в раздел Универсальные идентификаторы"
-          >2. Универсальные идентификаторы</a
-        ><br />
+          >Универсальные идентификаторы</a
+        >|
         <a
           href="./webpage_markers.html#block3"
           title="Перейти в раздел Три основных класса IP-адресов"
-          >3. Три основных класса IP-адресов</a
-        ><br />
+          >Три основных класса IP-адресов</a
+        >|
         <a
           href="./webpage_markers.html#block4"
           title="Перейти в раздел Адреса описывают сетевые соединения"
-          >4. Адреса описывают сетевые соединения</a
-        ><br />
+          >Адреса описывают сетевые соединения</a
+        >|
         <a
           href="./webpage_markers.html#block5"
           title="Перейти в раздел Сетевые и широковещательные адреса"
-          >5. Сетевые и широковещательные адреса</a
-        ><br />
+          >Сетевые и широковещательные адреса</a
+        >|
         <a
           href="./webpage_markers.html#block6"
           title="Перейти в раздел Ограниченное широковещание"
-          >6. Ограниченное широковещание</a
-        >
+          >Ограниченное широковещание</a
+        >| <br /><br />
       </nav>
     </header>
 
     <!-- Секция с ссылками на дз -->
-    <section>
-      <h3>Ссылки на ДЗ</h3>
-      <ul>
-        <li>
-          <a href="https://nastyagavrilova.github.io/homework2/"
-            >Резюме на русском</a
-          >
-        </li>
-        <li>
-          <a href="https://nastyagavrilova.github.io/homework2_eng/"
-            >Резюме на английском</a
-          >
-        </li>
-        <li><a href="./shopping_list.html">ДЗ со списком продуктов</a></li>
-        <li><a href="./iframes.html">ДЗ с Фрэйм</a></li>
-        <li><a href="./page_fieldsets.html">ДЗ с формой регистрацией</a></li>
-      </ul>
+    <section class="links">
+      <h2>Ссылки на ДЗ</h2>
+      <button>
+        <a href="https://nastyagavrilova.github.io/homework2/"
+          >Резюме на русском</a
+        ></button
+      ><br /><br />
+
+      <button>
+        <a href="https://nastyagavrilova.github.io/homework2_eng/"
+          >Резюме на английском</a
+        ></button
+      ><br /><br />
+
+      <button>
+        <a href="./shopping_list.html">ДЗ со списком продуктов</a></button
+      ><br /><br />
+
+      <button><a href="./iframes.html">ДЗ с Фрэйм</a></button><br /><br />
+
+      <button>
+        <a href="./page_fieldsets.html">ДЗ с формой регистрацией</a></button
+      ><br /><br />
     </section>
 
     <!-- Вставка видео с компьютера -->
-    <div>
+    <div class="video">
+      <h2>Видео</h2>
       <video width="400" height="300" controls poster="./images/poster.jpg">
         <source src="./video.mp4" type="video/mp4" />
       </video>
@@ -89,8 +83,6 @@
     <br />
 
     <!-- Подвал -->
-    <footer id="footer">
-      Эта веб-страница была сделана Гавриловой Анастасией
-    </footer>
+    <footer>Эта веб-страница была сделана Гавриловой Анастасией</footer>
   </body>
 </html>
