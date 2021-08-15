@@ -1,3 +1,4 @@
+/* Шапка */
 header {
   background-color: #a52a2a;
   color: white;
@@ -6,40 +7,51 @@ header {
   margin-left: 10px;
 }
 
+/* Изображение */
 #sunset {
   margin: 6px 10px 0px 10px;
   width: 98.4%;
 }
 
+/* Общий текст */
 .some-text {
   margin: 20px 10px 20px 20px;
   font-size: 18px;
 }
 
+/* Курсивный текст */
 #italic-text {
   font-style: italic;
 }
 
+/* Жирный текст */
 #bold-text {
   font-weight: bold;
 }
 
+/* Курсивно-жирный */
 #color-text {
   color: #3e11ff;
   font-style: italic;
   font-weight: bold;
 }
 
+/* Голубой текст */
 #blue-text {
   color: #0e20ff;
 }
+
+/* Рамка для изображений машин */
 .car-images img {
   border: dashed;
 }
+
+/* Выравние изображений машин */
 .car-images {
   text-align: center;
 }
 
+/* Стиль для нопки */
 button {
   background: #a52a2a;
   height: 42px;
@@ -50,14 +62,17 @@ button {
   margin-bottom: 30px;
   border-radius: 16px;
 }
-
-.link-main a {
-  color: white;
-}
+/* Псевдокласс измен. цвета кнопки */
 button:hover {
   background: #df7332;
 }
 
+/* Изменение цвета текста ссылки */
+.link-main a {
+  color: white;
+}
+
+/* Подвал */
 footer {
   position: relative;
   /* left: 10px; */
