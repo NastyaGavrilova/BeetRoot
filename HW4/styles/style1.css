@@ -1,0 +1,129 @@
+body {
+  background-color: #990909;
+}
+
+/* Стиль гифки */
+#title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* блок навигация */
+#navigation {
+  background-color: black;
+  padding: 25px;
+  padding-bottom: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+/* высота картинок в блоке навигации */
+#navigation img {
+  height: 140px;
+}
+
+/* Расположение картинок */
+#img1 {
+  margin-left: 50px;
+}
+#img2 {
+  margin-left: 89px;
+}
+#img3 {
+  margin-left: 89px;
+}
+#img4 {
+  margin-left: 90px;
+}
+/* ссылки в навигации */
+#navigation a {
+  vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  text-align: center;
+}
+/* расположение текста под картинками */
+.txt1 {
+  margin-left: 120px;
+}
+.txt2 {
+  margin-left: 240px;
+}
+.txt3 {
+  margin-left: 230px;
+}
+.txt4 {
+  margin-left: 227px;
+}
+/* правое меню */
+#right-menu {
+  background: #7d0909;
+  width: 260px;
+  height: 330px;
+  margin-left: 10px;
+  font-size: 18px;
+  text-decoration: underline;
+  color: #e95b11;
+}
+/* кнопка в правом меню */
+button {
+  background-color: #e95b11;
+  font-size: 18px;
+  height: 30px;
+  border: none;
+  border-radius: 13px;
+}
+/* Псевдокласс изменения цвета кнопки */
+button:hover {
+  background-color: #4f1302;
+}
+/* текс ссылки на меню */
+.link-main a {
+  color: white;
+}
+/* левое меню */
+#left-menu {
+  background-color: #e3dddd;
+  width: 200px;
+  height: 330px;
+  margin-left: 989px;
+  margin-top: -330px;
+  margin-bottom: 100px;
+  left: 365px;
+  font-size: 18px;
+}
+/* помещение Title в левое меню  */
+.border-box {
+  font-weight: bold;
+  margin-top: 0px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #bdbdbd;
+}
+/* разгарничесние в левом меню */
+hr {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+/* контент */
+#content {
+  margin-left: 270px;
+  margin-right: 225px;
+  margin-top: -410px;
+  font-size: 18px;
+  color: white;
+}
+/* шапка */
+footer {
+  position: relative;
+  /* left: 10px; */
+  margin-right: 10px;
+  padding: 3px;
+  margin: 60px 10px 5px 10px;
+  background: #e95b11;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
