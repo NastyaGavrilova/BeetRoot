@@ -17,6 +17,7 @@ nav {
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
+  font-size: 18px;
 }
 
 .links h2 {
@@ -31,18 +32,16 @@ nav {
   margin-right: 10px;
 }
 
-button {
+.links a {
   background-color: #3a5ab3;
-  text-align: center;
+  text-align: left;
   border-radius: 10px;
   border: none;
   padding: 10px;
-  position: relative;
   left: 50%;
   transform: translate(-50%, 0);
-}
-.links a {
   color: white;
+  font-size: 18px;
 }
 
 .links button:hover {
