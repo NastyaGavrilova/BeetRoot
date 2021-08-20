@@ -31,7 +31,7 @@
   border-radius: 50%;
   background-color: #fff;
   position: fixed;
-  left: 240px;
+  left: 420px;
   top: 56px;
   width: 69px;
   height: 67px;
@@ -50,7 +50,7 @@
   border: 2px solid rgb(18, 117, 185);
   background-color: rgb(18, 117, 185);
   position: fixed;
-  left: 560px;
+  left: 740px;
   top: 56px;
   width: 65px;
   height: 63px;
@@ -68,7 +68,7 @@
   border: 2px solid rgb(18, 117, 185);
   background-color: rgb(18, 117, 185);
   position: fixed;
-  left: 870px;
+  left: 1060px;
   top: 56px;
   width: 65px;
   height: 63px;
@@ -82,7 +82,7 @@
 /* иконка слева, не смогла изменить цвет иконки при наведении */
 .tablet_icon {
   position: fixed;
-  left: 262px;
+  left: 442px;
   top: 73px;
   width: 24px;
   height: 30px;
@@ -91,7 +91,7 @@
 /* иконка центральная */
 .settings_icon img {
   position: fixed;
-  left: 579px;
+  left: 759px;
   top: 73px;
   width: 26px;
   height: 26px;
@@ -100,7 +100,7 @@
 /* иконка справа */
 .dashboard_icon {
   position: fixed;
-  left: 889px;
+  left: 1078px;
   top: 73px;
   width: 28px;
   height: 24px;
@@ -121,7 +121,7 @@
 .resp_text_wrapper {
   text-align: center;
   position: fixed;
-  left: 220px;
+  left: 400px;
   top: 135px;
   z-index: 6;
 }
@@ -130,7 +130,7 @@
 .easy_text_wrapper {
   text-align: center;
   position: fixed;
-  left: 545px;
+  left: 725px;
   top: 135px;
   z-index: 18;
 }
@@ -139,7 +139,7 @@
 .fast_and_rel_text_wrapper {
   text-align: center;
   position: fixed;
-  left: 850px;
+  left: 1040px;
   top: 135px;
   z-index: 12;
 }
@@ -160,7 +160,7 @@
   position: fixed;
   width: 240px;
   height: 52px;
-  left: 155px;
+  left: 335px;
   top: 160px;
   z-index: 9;
 }
@@ -169,7 +169,7 @@
 .center_text_wrapper {
   text-align: center;
   position: fixed;
-  left: 470px;
+  left: 655px;
   top: 160px;
   width: 240px;
   height: 52px;
@@ -180,7 +180,7 @@
 .right_text_wrapper {
   text-align: center;
   position: fixed;
-  left: 785px;
+  left: 975px;
   top: 160px;
   width: 240px;
   height: 52px;
