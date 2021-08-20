@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* обертка */
+.wrapper {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 1550px;
+  z-index: 2;
+  background-color: #ffffff;
+}
+
+/* подключение шрифта */
+@font-face {
+  font-family: ProximaNova regular;
+  src: url(./fonts/ProximaNovaCond-Regular.ttf);
+}
+
+@font-face {
+  font-family: ProximaNova light;
+  src: url(./fonts/ProximaNovaExCn-LightIt.ttf);
+}
+
+/* круг слева */
+.tablet_circle {
+  border: 2px solid rgb(18, 117, 185);
+  border-radius: 50%;
+  background-color: #fff;
+  position: fixed;
+  left: 240px;
+  top: 56px;
+  width: 69px;
+  height: 67px;
+  z-index: 7;
+}
+
+/* изменение фона круга */
+.tablet_circle:hover {
+  background-color: rgb(18, 117, 185);
+  border-color: white;
+}
+
+/* круг центральый */
+.settings_circle {
+  border-radius: 50%;
+  border: 2px solid rgb(18, 117, 185);
+  background-color: rgb(18, 117, 185);
+  position: fixed;
+  left: 560px;
+  top: 56px;
+  width: 65px;
+  height: 63px;
+  z-index: 19;
+}
+
+/* изменение фона круга */
+.settings_circle:hover {
+  background-color: #fff;
+}
+
+/* круг справа */
+.dashboard_circle {
+  border-radius: 50%;
+  border: 2px solid rgb(18, 117, 185);
+  background-color: rgb(18, 117, 185);
+  position: fixed;
+  left: 870px;
+  top: 56px;
+  width: 65px;
+  height: 63px;
+  z-index: 13;
+}
+/* изменение фона круга */
+.dashboard_circle:hover {
+  background-color: #fff;
+}
+
+/* иконка слева, не смогла изменить цвет иконки при наведении */
+.tablet_icon {
+  position: fixed;
+  left: 262px;
+  top: 73px;
+  width: 24px;
+  height: 30px;
+  z-index: 8;
+}
+/* иконка центральная */
+.settings_icon img {
+  position: fixed;
+  left: 579px;
+  top: 73px;
+  width: 26px;
+  height: 26px;
+  z-index: 20;
+}
+/* иконка справа */
+.dashboard_icon {
+  position: fixed;
+  left: 889px;
+  top: 73px;
+  width: 28px;
+  height: 24px;
+  z-index: 14;
+}
+
+/* обертка большого текста стилизация текста */
+.big_text_wrapper {
+  font-family: ProximaNova regular;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 1.714;
+}
+
+/* заголовок слева */
+.resp_text_wrapper {
+  text-align: center;
+  position: fixed;
+  left: 220px;
+  top: 135px;
+  z-index: 6;
+}
+
+/* заголовок центральный */
+.easy_text_wrapper {
+  text-align: center;
+  position: fixed;
+  left: 545px;
+  top: 135px;
+  z-index: 18;
+}
+
+/* заголовк справа */
+.fast_and_rel_text_wrapper {
+  text-align: center;
+  position: fixed;
+  left: 850px;
+  top: 135px;
+  z-index: 12;
+}
+
+/* обертка текста */
+.under_text_wrapper {
+  font-size: 14px;
+  font-family: ProximaNova regular;
+  color: rgb(157, 157, 157);
+  line-height: 1.429;
+  width: 240px;
+  height: 52px;
+}
+
+/* текст слева */
+.text_left_wrapper {
+  text-align: center;
+  position: fixed;
+  width: 240px;
+  height: 52px;
+  left: 155px;
+  top: 160px;
+  z-index: 9;
+}
+
+/* центральный текст */
+.center_text_wrapper {
+  text-align: center;
+  position: fixed;
+  left: 470px;
+  top: 160px;
+  width: 240px;
+  height: 52px;
+  z-index: 22;
+}
+
+/* текст справа */
+.right_text_wrapper {
+  text-align: center;
+  position: fixed;
+  left: 785px;
+  top: 160px;
+  width: 240px;
+  height: 52px;
+  z-index: 16;
+}

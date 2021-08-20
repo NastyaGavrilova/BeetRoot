@@ -30,18 +30,23 @@ nav {
   border-left-style: none;
   margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 10px;
+  height: 120px;
 }
 
 .links a {
   background-color: #3a5ab3;
-  text-align: left;
   border-radius: 10px;
   border: none;
   padding: 10px;
-  left: 50%;
+  /* left: 50%; */
   transform: translate(-50%, 0);
   color: white;
-  font-size: 18px;
+  font-size: 16px;
+}
+
+.links a:hover {
+  background-color: rgb(1, 31, 87);
 }
 
 .links button:hover {
