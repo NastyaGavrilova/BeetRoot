@@ -87,16 +87,27 @@
   width: 24px;
   height: 30px;
   z-index: 8;
+  fill: rgb(18, 117, 185);
 }
-/* иконка центральная */
-.settings_icon img {
+
+.tablet_icon svg:hover {
+  stroke: white;
+  fill: white;
+}
+.settings_icon {
   position: fixed;
   left: 759px;
   top: 73px;
   width: 26px;
   height: 26px;
   z-index: 20;
+  fill: white;
 }
+.settings_icon svg:hover {
+  stroke: #2a69a6;
+  fill: #2a69a6;
+}
+
 /* иконка справа */
 .dashboard_icon {
   position: fixed;
@@ -105,6 +116,12 @@
   width: 28px;
   height: 24px;
   z-index: 14;
+  fill: rgb(255, 255, 255);
+}
+
+.dashboard_icon svg:hover {
+  stroke: #2a69a6;
+  fill: #2a69a6;
 }
 
 /* обертка большого текста стилизация текста */
