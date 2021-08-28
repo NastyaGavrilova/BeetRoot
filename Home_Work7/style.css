@@ -26,10 +26,12 @@ body {
 
 /* размещение шапки */
 .weather-header {
+  /* max-width: 1170px; */
   padding: 20px 0 20px;
 }
 /* размешение и стилизация навигации */
 .navigation {
+  /* max-width: 1170px; */
   margin-top: 20px;
   border: 2px solid #fff;
   background-color: #fff;
@@ -57,7 +59,7 @@ h1 {
   list-style-type: none;
   font-size: 0;
   border: 2px solid #fff;
-  /* background-color: #fff; */
+  background-color: #fff;
 }
 
 /* при наведении на элемент списка все остальные становяться прозрачными */
@@ -141,6 +143,6 @@ h1 {
 
 /* подвал */
 .wether-footer {
-  margin: 20px 200px;
+  margin: 20px 0;
   font-size: 17px;
 }
