@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "HansKendrick";
+}
+
+/* Шрифт */
+@font-face {
+  font-family: "HansKendrick";
+  src: url(./fonts/HansKendrick-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* Фон */
+body {
+  background-color: #e2e7ec;
+  padding: 40px;
+}
+/* Шапка */
+.news_header {
+  text-align: center;
+}
+/* Заголовок  */
+.title {
+  color: #99a5b0;
+}
+
+/* РАсположение блоков */
+.news_wrapper > section {
+  max-width: 1120px;
+  width: 100%;
+  height: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+/* Стилизация блоков */
+.news_container {
+  height: 540px;
+  max-width: 360px;
+  background-color: #ffffff;
+}
+/* Размер изображений */
+.news_img {
+  width: 360px;
+  height: 250px;
+}
+
+.news_img img {
+  width: 100%;
+  height: auto;
+}
+/* расположение содержимого в блоках */
+.content_of_news {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 290px;
+  padding: 0 30px;
+  text-transform: uppercase;
+}
+
+/* Стилизация тектса даты */
+.date_news {
+  color: #818181;
+  font-weight: 400;
+  font-size: 14px;
+}
+/* Стилизация текста в блоках */
+.text_news {
+  height: 80px;
+  width: 310px;
+  font-weight: 700px;
+  font-size: 24px;
+  color: black;
+  overflow: hidden;
+}
+
+/* Размер избражения автора */
+.author {
+  height: 55px;
+  width: 55px;
+}
+
+/* Размер первого блока */
+.news_container:first-child {
+  max-width: 740px;
+  position: relative;
+}
+
+.news_container:first-child .news_img {
+  width: 740px;
+}
+
+/* Добавление градиента в изображение первого блока */
+.news_container:first-child .content_of_news {
+  justify-content: flex-end;
+  position: absolute;
+  height: 540px;
+  width: 740px;
+  top: 0;
+  background: linear-gradient(to top, #090a0c 10%, rgba(255, 255, 255, 0) 100%);
+}
+
+/* расположение текста в первом блоке */
+.news_container:first-child .text_news {
+  margin: 20px 0 30px 10px;
+  color: white;
+  font-size: 36px;
+  font-weight: 600px;
+}
+
+/* РАсположение текста даты в первом блоке */
+.news_container:first-child .date_news {
+  padding-left: 20px;
+  color: white;
+  font-size: 24px;
+}
+
+/* Подвал */
+.news_footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Стилизация ссылки */
+.home_page {
+  text-decoration: none;
+  font-size: 24px;
+  color: #99a5b0;
+}

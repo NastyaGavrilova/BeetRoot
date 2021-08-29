@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Miso";
+}
+/* Шрифты */
+@font-face {
+  font-family: "Miso";
+  src: url(./fonts/miso-light_1.ttf) format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Miso bold";
+  src: url(./fonts/miso-bold_1.ttf) format("truetype");
+  font-style: normal;
+}
+
+/* Фон */
+body {
+  background-color: #fdde7e;
+  padding: 10px;
+}
+
+/* Стиль шапки */
+.coffee_header {
+  text-align: center;
+}
+/* Стиль загловка страницы */
+.title {
+  color: #937415;
+  font-weight: 700;
+  font-family: "Miso bold";
+}
+/* изображение пара кофе */
+.smoke_img {
+  height: 46px;
+  width: 49px;
+}
+
+/* Блоки с фоном кружки   */
+.coffee_bean_1 {
+  width: 135px;
+  height: 77px;
+  background-image: url(./images/cup1.png);
+}
+
+.coffee_bean_2 {
+  width: 135px;
+  height: 77px;
+  background-image: url(./images/cup2.png);
+}
+.coffee_bean_3 {
+  width: 135px;
+  height: 77px;
+  background-image: url(./images/cup3.png);
+}
+/* расположение кофейного зерна */
+.bean {
+  width: 37px;
+  height: 45px;
+  margin: 16px 42px;
+}
+/* расположение блоков между собой */
+.coffee_wrapper > section {
+  max-width: 1200px;
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: stretch;
+  align-items: center;
+  flex-shrink: initial;
+}
+/* расположение элемнтов в блоке */
+.coffee_container {
+  width: 310px;
+  height: 400px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* зеленый текст */
+.green_text {
+  color: #02995b;
+  font-size: 36px;
+  font-family: "Miso bold";
+}
+/* текст под кружеой */
+.top_text {
+  font-size: 36px;
+  font-family: "Miso bold";
+}
+
+.sub_text {
+  text-align: center;
+  font-size: 24px;
+  width: 154px;
+}
+/* увелеченный второй блок */
+.coffee_container:nth-child(2n) {
+  height: 500px;
+}
+/* подвал */
+.coffee_footer {
+  text-align: center;
+  font-family: "Miso bold";
+}
+/* стилизация ссылки в подвале */
+.home2_page {
+  text-decoration: none;
+  font-size: 36px;
+  color: #937415;
+  font-weight: 700;
+}
