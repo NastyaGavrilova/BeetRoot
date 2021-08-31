@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #464f54;
+}
+/* Стилизация черного блока */
+header {
+  width: 876px;
+  height: 187px;
+  background: #181818;
+  float: right;
+  z-index: 1;
+  margin-top: -100px;
+}
+
+/* верхний текст в черном блоке */
+.title_text {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 48px;
+  margin-left: 62px;
+  color: #767676;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+/* нижний жирный текст c горизонтальной линией*/
+.big_text {
+  position: absolute;
+  border: none;
+  margin-left: 62px;
+  height: 75px;
+  width: 814px;
+  border-bottom: 3px solid #303030;
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+  color: white;
+}
+/* верхний желтый текст */
+.tob_yellow_block {
+  background: #f7bd2c;
+  width: 812px;
+  height: 76px;
+  padding: 20px 0px 20px 40px;
+  z-index: 1;
+  float: right;
+}
+
+/* расположение иконок в желтом блоке и их размер */
+.icons {
+  font-size: 30px;
+  list-style-type: none;
+  color: white;
+  margin-right: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+/* при наведении на иконку другие становяться более прозрачными */
+.icons:hover > li {
+  opacity: 0.7;
+}
+/* при наведении на иконку становиться не прозрачной */
+.icons > li:hover {
+  opacity: 1;
+}
+
+/* размер блока контента и его расположение и тень */
+.content_block {
+  width: 1060px;
+  height: 752px;
+  background: white;
+  padding-left: 67px;
+  padding-right: 134px;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 30;
+  margin-top: 150px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.61);
+}
+
+.content_block_wrapper {
+  border-left: 2px solid #e8eced;
+  padding-top: 200px;
+  padding-left: 55px;
+  height: 100%;
+}
+
+/* текст с именем автора */
+.author {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #b4b4b4;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+/* заголовок контента */
+.content_title_text {
+  font-family: "Futura PT", sans-serif;
+  text-transform: uppercase;
+  color: #2a2a2a;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 78px;
+}
+
+/* нижний текст под заголовком */
+.content_sub_text {
+  font-family: Georgia, serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+  color: #8f8f8f;
+}
+
+/* абзацы */
+.content_paragraphs {
+  font-family: Georgia, serif;
+  margin-top: 40px;
+  font-size: 26px;
+  text-align: justify;
+}
+/* Шапка с ссылкой*/
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+/* обнуление стилей ссылки*/
+.footer a {
+  color: white;
+  text-decoration: none;
+}
