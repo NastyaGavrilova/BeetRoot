@@ -34,8 +34,10 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  height: 200px;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-content: space-between;
+  height: 150px;
 }
 
 .links a {
