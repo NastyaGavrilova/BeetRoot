@@ -32,9 +32,10 @@ nav {
   padding-bottom: 10px;
   border-bottom: 2px solid;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  height: 80px;
+  height: 200px;
 }
 
 .links a {
