@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Фон и шрифт */
+body {
+  background-color: #414453;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* обвертка содержимого */
+.main_wrapper {
+  width: 890px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+
+/* обвертка заголовка */
+.title_wrapper {
+  color: #edf1fa;
+  font-size: 100px;
+  width: 540px;
+  margin: 90px 70px 130px 90px;
+}
+/* нижний заголовок */
+.sub_tittle {
+  margin-top: 16px;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.4px;
+}
+
+/* верхний круг */
+.top_cicrle {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: -50px;
+  flex-shrink: 0;
+}
+
+/* основной класс для все кругов */
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #ff545b;
+  transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* внешний верхний круг */
+.outside {
+  width: 300px;
+  height: 300px;
+}
+
+/* внутренний верхний круг */
+.inside {
+  width: 155px;
+  height: 155px;
+  background-color: #ffcf6d;
+  top: 70px;
+  left: 73px;
+}
+
+/* обвертка цветка */
+.flower_wrapper {
+  position: fixed;
+  top: 245px;
+  left: 66%;
+}
+
+/* размер блока цветка */
+.flower {
+  width: 455px;
+  height: 390px;
+  position: relative;
+}
+
+/* линии */
+.line {
+  height: 3px;
+  width: 80%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  background-color: #808391;
+}
+/* расположение линий */
+.line-1 {
+  transform: rotate(41deg);
+}
+
+.line-2 {
+  transform: rotate(90deg);
+}
+
+.line-3 {
+  transform: rotate(-41deg);
+}
+
+/* центральный желтый круг */
+.yellow_circle {
+  width: 160px;
+  height: 160px;
+  background-color: #ffcf6d;
+  top: 115px;
+  left: 148px;
+  z-index: 100;
+}
+
+/* большие круги */
+.big_circle {
+  width: 105px;
+  height: 105px;
+}
+
+/* верхний левый угол */
+.corner_left_top {
+  top: 33px;
+  left: 51px;
+}
+
+/* верхний правый угол */
+.corner_right_top {
+  top: 33px;
+  right: 51px;
+}
+/* нижний левый угол */
+.corner_left_bottom {
+  bottom: 33px;
+  left: 51px;
+}
+/* нижний правый угол */
+.corner_right_bottom {
+  bottom: 33px;
+  right: 51px;
+}
+/* маленькие круги */
+.small_circle {
+  width: 73px;
+  height: 73px;
+}
+
+/* верх по центру */
+.center_top {
+  top: -10px;
+  left: 190px;
+}
+/* низ по центру */
+.center_bottom {
+  bottom: -10px;
+  left: 190px;
+}
+/* средние круги */
+.medium_circle {
+  width: 88px;
+  height: 88px;
+}
+
+/* левый край */
+.right {
+  right: 0;
+  top: 150px;
+}
+/* правый край */
+.left {
+  left: 0;
+  top: 150px;
+}
+/* увелечение кругов при наведении на них */
+.flower > .circle:hover {
+  transform: scale(1.2);
+}
+
+/* увеличение всех кругов при наведении на центральный круг */
+.yellow_circle:hover ~ .flower > .circle {
+  transform: scale(1.2);
+}

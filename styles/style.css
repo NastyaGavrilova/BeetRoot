@@ -26,6 +26,7 @@ nav {
 }
 .links {
   margin: 0 auto;
+
   padding-top: 10px;
   padding-left: 25px;
   padding-right: 10px;
@@ -34,13 +35,14 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: flex-end;
   align-content: space-between;
   height: 150px;
 }
 
 .links a {
+  margin: 3px;
   text-align: center;
   background-color: #3a5ab3;
   border-radius: 10px;

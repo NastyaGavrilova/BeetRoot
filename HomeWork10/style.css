@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* Фон страницы и основной шрифт */
+body {
+  background: #b07df7;
+  font-family: "Raleway", sans-serif;
+}
+
+/* заголовки */
+h2,
+h3 {
+  margin: 0 0 25px;
+  line-height: 1.25;
+}
+/* Заголовок страницы */
+.text_center {
+  font-size: 90px;
+  text-align: center;
+  font-weight: bold;
+}
+/* Текст под заголовком */
+.section_content {
+  text-align: center;
+  max-width: 570px;
+  margin: 0 auto 35px;
+}
+
+.section_content p {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+/* Сексция блога внутренние оступы сверху и снизу */
+.section_blog {
+  padding: 90px 0 120px;
+  color: #fff;
+}
+/* Внешние и внутренние отступы слева и справа  */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1200px;
+}
+/* Контент постов */
+.posts_content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -15px;
+}
+
+/* расстояние между постами */
+.posts_content > .post_wrapper {
+  padding-left: 20px;
+}
+
+/* Пост */
+.post {
+  margin: 1px;
+  position: relative;
+}
+/* Пост в виед ссылки контент с автором будет обрезан снизу для дальнейшего появления */
+.post_link {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.post_link img {
+  display: block;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s;
+}
+
+/* Блок с датой в левом верхнем углу */
+.post-date {
+  z-index: 3;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  transition: transform 0.5s;
+}
+
+/* Стиль шрифта даты */
+.post-date {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.post-date span {
+  font-size: 30px;
+}
+
+/* Тело поста */
+.post_body {
+  z-index: 3;
+  position: absolute;
+  bottom: -25px;
+  left: 20px;
+  right: 20px;
+  font-size: 13px;
+  transition: transform 0.3s;
+}
+
+/* Появление автора контент поста поднимаеться вверх по оси Х */
+.post_link:hover .post_body {
+  transform: translateY(-45px);
+}
+/* Исчезновение даты вверх по оси Х */
+.post_link:hover .post-date {
+  transform: translateY(-150px);
+}
+/* Увеличение картинки при наведении */
+.post_link:hover img {
+  transform: scale(1.2);
+}
+/* Заголовок поста */
+.post_title {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 20px;
+}
+/* кнопка */
+.button {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.button_link {
+  width: 200px;
+  height: 56px;
+  background-color: #f72b3b;
+  border: none;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.view_more {
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  transition: transform 0.3s;
+  text-decoration: none;
+}
+/* Увеличение контента кнопки */
+.button_link :hover {
+  transform: scale(1.1);
+}
