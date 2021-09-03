@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <!-- Fontawesome -->
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+      rel="stylesheet"
+    />
+    <!-- Normilize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Main Style -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Nike</title>
+  </head>
+  <body>
+    <!-- Card -->
+    <div class="card">
+      <div class="card__wrapper">
+        <!-- Content of card -->
+        <div class="card__content">
+          <!-- Left card -->
+          <div class="card__left">
+            <div class="product">
+              <!-- logo -->
+              <div class="product__logo">
+                <img src="./images/logo.png" alt="logo" />
+              </div>
+              <!-- End of Logo -->
+
+              <!-- Product image -->
+              <div class="product__img">
+                <img src="./images/Nike-SB-Stefan-Janoski-Max.png" alt="nike" />
+              </div>
+              <!-- End of Product image -->
+
+              <!-- Buttons of color -->
+              <div class="product__button">
+                <button class="product__button--button"></button>
+                <button class="product__button--button"></button>
+                <button class="product__button--button"></button>
+                <button class="product__button--button"></button>
+              </div>
+              <!-- End of Buttons of color -->
+            </div>
+          </div>
+          <!-- End of Left card -->
+
+          <!-- Right card -->
+          <div class="card__right">
+            <div class="options">
+              <div class="options__name">Nike SB Stefan Janoski Max</div>
+              <div class="options__description">Unisex Skateboarding Shoe</div>
+
+              <!-- Rating  -->
+              <div class="options__rating">
+                <div class="rating__star"><i class="fas fa-star"></i></div>
+                <div class="rating__star"><i class="fas fa-star"></i></div>
+                <div class="rating__star"><i class="fas fa-star"></i></div>
+                <div class="rating__star"><i class="fas fa-star"></i></div>
+                <div class="rating__star"><i class="fas fa-star"></i></div>
+              </div>
+              <!-- End of Rating -->
+
+              <!-- Form with options -->
+              <form class="options__form">
+                <!-- Options size -->
+                <select class="options__select options__size">
+                  <option selected disabled hidden>Size</option>
+                  <option value="40">40</option>
+                  <option value="41">41</option>
+                  <option value="42">42</option>
+                  <option value="43">43</option>
+                  <option value="44">44</option>
+                </select>
+                <!-- End of Options size -->
+
+                <!-- Options quantity -->
+                <select class="options__select options__quantity">
+                  <option selected disabled hidden>Qty</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+                <!-- End of Options quantity -->
+
+                <!-- Button Add -->
+                <button class="options__button">Add to cart</button>
+                <!-- End of Button Add -->
+              </form>
+              <!-- End of Form with options -->
+            </div>
+          </div>
+        </div>
+        <!-- End of Content -->
+      </div>
+    </div>
+  </body>
+</html>
