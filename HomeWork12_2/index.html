@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/faviocn.ico" type="image/x-icon" />
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:400,700"
+      rel="stylesheet"
+    />
+    <!-- Normilize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Main Style -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Sign up Form</title>
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+      <!-- Header block -->
+      <header class="header-content">
+        <nav class="header-nav">
+          <a
+            href="https://nastyagavrilova.github.io/BeetRoot/"
+            class="header-nav__link"
+            title="Go Home"
+            target="_blank"
+            >Sign In</a
+          >
+          <a
+            href="./HomeWork12/index.html"
+            class="header-nav__link"
+            title="First part of HW_12"
+            target="_blank"
+            >Join Us</a
+          >
+        </nav>
+      </header>
+      <!-- End of Header block -->
+
+      <!-- Main content -->
+      <main class="main-content">
+        <!-- Form -->
+        <form action="#" method="GET" class="form-content">
+          <!-- ! Username -->
+          <label class="form-item">
+            <div class="form-item__title">Username</div>
+            <input required type="text" class="form-item__input" />
+          </label>
+
+          <!-- ! Password -->
+          <label class="form-item">
+            <div class="form-item__title">Password</div>
+            <input required type="password" class="form-item__input" />
+          </label>
+
+          <!--! Checkbox -->
+          <label class="form-item form-checkbox">
+            <input required type="checkbox" class="form-item__checkbox" />
+            <span class="form-item__checkbox--custom"></span>
+            <div class="form-item__checkbox__title">Keep me signed in</div>
+          </label>
+
+          <!-- ! Submit button -->
+          <button class="form-item__button" type="submit">
+            <div class="form-item__title button_tittle">Sign In</div>
+          </button>
+        </form>
+        <!-- End of Form -->
+      </main>
+      <!-- End of Main content -->
+
+      <!-- Footer content -->
+      <footer class="footer-content">
+        <nav class="footer-nav">
+          <a href="#" class="footer-nav__link">Forgot password</a>
+          <a href="#" class="footer-nav__link">Create an account</a>
+        </nav>
+      </footer>
+      <!-- End of Footer content -->
+    </div>
+    <!-- End of Container -->
+  </body>
+</html>

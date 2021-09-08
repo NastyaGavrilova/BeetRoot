@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #e5eeee;
+  font-family: "Quicksand", sans-serif;
+  padding-top: 51px;
+}
+
+/* размер содержимого формы с фоном */
+.container {
+  height: 500px;
+  width: 400px;
+  background: url(./images/vector-smart-object.png) no-repeat,
+    linear-gradient(32deg, #2e21aa 30%, #c471d8 100%);
+  margin: 0 auto;
+}
+
+/* Стили Шапки */
+.header-content {
+  margin-bottom: 0;
+  padding: 50px 70px;
+}
+
+.header-nav__link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 26px;
+  color: #e1c2f1;
+}
+
+.header-nav__link:hover {
+  border-bottom: 2px solid #e66a64;
+  color: #fbf6e4;
+}
+/* Конец стилей Шапки */
+
+/* РАсположение элементов Формы */
+.form-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.form-item {
+  padding-bottom: 20px;
+}
+/* Заголовки для инпутов */
+.form-item__title {
+  color: #fbf6e4;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* размер инпутов */
+.form-item__input {
+  margin-top: 10px;
+  width: 260px;
+  height: 40px;
+  background: none;
+  border: 2px solid #ae8ecc;
+  color: #fbf6e4;
+  font-size: 14px;
+  outline: none;
+}
+
+/* обнуляем checkbox */
+.form-item__checkbox {
+  display: none;
+}
+
+/* задаем, чтобы абсолютным образом позиционировать псевдоэлемент внютри кастомного чекбокса*/
+.form-item__checkbox--custom {
+  position: relative;
+  width: 16px; /* задаем ширину */
+  height: 16px; /* задаем высоту */
+  background: #23ae92;
+}
+
+.form-item__checkbox--custom,
+.form-checkbox {
+  display: flex;
+  align-items: stretch;
+}
+/* Если реальный чекбокс отмечен, то добавляем данный признак и к кастомному чекбоксу  */
+.form-item__checkbox:checked + .form-item__checkbox--custom::before {
+  content: "";
+  display: block;
+  position: absolute;
+
+  /* Задаем расстояние от верхней, правой, нижней и левой границы */
+  top: 5px;
+  right: 2px;
+  bottom: 2px;
+  left: 3px;
+
+  background: url("./images/check.svg") no-repeat; /* Фон */
+}
+
+/* Заголовок для чекбокса */
+.form-item__checkbox__title {
+  font-size: 13px;
+  padding-left: 7px;
+  color: #fbf6e4;
+  font-weight: bold;
+}
+
+/* Конпка submit */
+.form-item__button {
+  width: 260px;
+  height: 40px;
+  background-color: #23ae92;
+  border: none;
+  cursor: pointer;
+}
+.button_tittle {
+  font-size: 18px;
+}
+
+/* Стиль Подвала */
+.footer-nav {
+  margin-top: 33px;
+  padding-left: 71px;
+}
+
+.footer-nav__link {
+  text-decoration: none;
+  color: #b9b9cc;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 3px;
+  margin-right: 33px;
+  border-bottom: 1px solid rgba(150, 193, 218, 0.15);
+}
+.footer-nav__link:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+/* Конец Подвала */

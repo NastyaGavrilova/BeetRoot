@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Lato Light";
+  src: url(./fonts/Lato-Light.ttf) format("truetype");
+}
+
+body {
+  background-color: #11364e;
+  color: #ffff;
+  font-family: "Lato Light";
+}
+
+/* Стиль Секции */
+.c-contuct-us {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+}
+/* Заголовок формы */
+.c-contuct-us____title {
+  text-align: center;
+}
+/* Обертка для формы */
+.c-contuct-us__wrapper {
+  margin: 140px auto 0 auto;
+  width: fit-content;
+}
+
+/* Форма */
+.c-contuct-us__form {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Элементы формы */
+.c-contuct-us__item {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 40px;
+  border-bottom: 2px solid #4c687a;
+}
+
+.c-contuct-us__item__input,
+.c-contuct-us__item__textarea {
+  padding-top: 10px;
+  width: 370px;
+  background: none;
+  outline: none;
+  border: none;
+  color: #ffff;
+}
+
+/* Элемент для message  */
+.c-contuct-us__item__textarea {
+  height: 120px;
+  resize: none;
+  color: #ffff;
+}
+
+/* Кнопка submit */
+.c-contuct-us__button {
+  margin-top: 36px;
+  margin-bottom: 140px;
+  text-align: center;
+}
+
+button {
+  width: 370px;
+  height: 60px;
+  background-color: #ff7f57;
+  border: none;
+  border-radius: 5px;
+  color: #ffff;
+  cursor: pointer;
+}
+
+/* Шапка и Подвал */
+.header-content,
+.footer-content {
+  height: 47px;
+  background-color: #13253a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Обнуление стилей ссылки */
+.navigation__link {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 24px;
+}

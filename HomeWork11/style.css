@@ -28,7 +28,7 @@ body {
 .card__wrapper {
   width: 798px;
   max-width: 1000px;
-  height: 513px;
+  /* height: 513px; */
   margin: 0 auto;
   border-radius: 15px;
   background-color: #111a28;
