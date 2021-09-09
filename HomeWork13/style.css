@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #70bfff;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Шапка */
+.header-content {
+  height: 50px;
+  background-color: #0a5897;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Навишация в шапке */
+.header-content__navigation-link {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+/* блок Сервисов */
+.services {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* Левый блок  */
+.services__left {
+  float: left;
+  width: 41.65%;
+  padding-top: 160px;
+}
+
+/* Лист */
+.services-list {
+  padding-left: 100px;
+}
+/* Элементы листа */
+.services-list__item {
+  list-style-type: none;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 400px;
+  height: 100px;
+  margin-bottom: 20px;
+  font-size: 0;
+}
+/* При нажатии увеличиваеться элемент листа */
+.services-list__item:active {
+  transform: scale(0.93);
+}
+/* Ссылка как элемент листа */
+.services-list__item-a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Заголвки элментов листа */
+.services-list__item-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: center;
+  display: inline-block;
+  width: calc(100% - 100px);
+  margin: 0;
+  vertical-align: middle;
+}
+/* Блок для svg */
+.services-list__item-block {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-left: 1px solid #9d9d9d;
+  vertical-align: middle;
+}
+
+/* размер для svg */
+.services-list__item-svg1,
+.services-list__item-svg2,
+.services-list__item-svg3,
+.services-list__item-svg4 {
+  margin: 23px;
+}
+
+/* Изменение цвета фона и текста и svg */
+.services-list__item:hover {
+  background-color: #ffffc8;
+}
+
+.services-list__item:hover .services-list__item-a {
+  color: #686839;
+}
+.services-list__item:hover .services-list__item-block {
+  fill: #686839;
+}
+/* Конец левого блока */
+
+/* Правый блок */
+.services__right {
+  padding-top: 72px;
+  padding-right: 90px;
+  float: right;
+  width: 50%;
+}
+.services__right-title {
+  font-size: 70px;
+  color: #ffffff;
+  font-weight: 700;
+  background: url("./images/tomato.png") right no-repeat;
+  margin: 0;
+  padding: 220px 0 220px 24px;
+  text-align: center;
+}
+/* Конец правого блока */
