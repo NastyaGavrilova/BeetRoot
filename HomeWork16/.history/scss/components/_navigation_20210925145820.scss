@@ -1,0 +1,24 @@
+.c-navigation {
+  float: right;
+
+  &__item {
+    float: left;
+    padding-left: 37px;
+  }
+
+  &__item:first-child {
+    border-top: 3px solid $c-orange;
+  }
+
+  @media screen and (max-width: 780px) {
+    &__item {
+      float: none;
+      padding-top: 5px;
+      text-align: right;
+
+      .e-link {
+        display: inline-block;
+      }
+    }
+  }
+}
