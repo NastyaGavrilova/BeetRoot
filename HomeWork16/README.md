@@ -1,2 +1,0 @@
-# teamplate
-teamplate for development

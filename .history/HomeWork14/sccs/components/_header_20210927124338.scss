@@ -17,7 +17,7 @@
   }
   //линия под хэдером
   &:after {
-    // @extend .header:: before;
+    @extend .header:: before;
     right: 0;
   }
   // заголовок
