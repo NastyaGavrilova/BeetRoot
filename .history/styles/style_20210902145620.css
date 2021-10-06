@@ -38,7 +38,7 @@ nav {
   /* justify-content: space-between; */
   align-items: flex-end;
   align-content: space-between;
-  min-height: 150px;
+  height: 150px;
 }
 
 .links a {

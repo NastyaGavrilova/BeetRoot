@@ -48,7 +48,7 @@ nav {
   border-radius: 10px;
   border: none;
   height: 50px;
-  width: 80px;
+  max-width: 80px;
   padding: 10px;
   text-decoration: none;
   /* left: 50%; */
